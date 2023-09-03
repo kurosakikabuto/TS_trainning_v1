@@ -25,7 +25,7 @@ export type Student = {
   };
 };
 
-export const students: Student[] = [
+const students: Student[] = [
   {
     id: "Science_1",
     name: "Phúc Pro",
