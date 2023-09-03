@@ -106,3 +106,5 @@ const baitap = [
 ];
 
 // sắp xếp mảng đã cho sao cho lẻ đứng trước chẵn đứng sau và tăng dần
+//
+//viết code
