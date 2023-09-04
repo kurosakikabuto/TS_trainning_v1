@@ -79,7 +79,6 @@ const baitap = [
   5,
   57,
   2,
-  ,
   578,
   7,
   7,
@@ -93,7 +92,6 @@ const baitap = [
   77,
   874,
   11,
-  ,
   77,
   5,
   8,
@@ -104,7 +102,9 @@ const baitap = [
   7111,
   1000,
 ];
+baitap.sort((a, b) => (a % 2 ? -1 : 1) * (a - b));
 
+console.log(baitap);
 // sắp xếp mảng đã cho sao cho lẻ đứng trước chẵn đứng sau và tăng dần
 //
 //viết code
